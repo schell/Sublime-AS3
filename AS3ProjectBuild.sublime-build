@@ -1,0 +1,13 @@
+{
+	"selector" : "source.actionscript.3",
+	"cmd": ["python", 
+		"$packages/AS3ProjectBuild/bin/build.py", 
+		"--project", 
+		"$project_path", 
+		"--input", 
+		"$file", 
+		"--output", 
+		"$file_base_name.swf",
+		"--cmd",
+		"/SDKs/Flex/bin/mxmlc"]
+}
