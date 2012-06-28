@@ -5,15 +5,14 @@ A project building package for Sublime Text 2
 
 Usage
 -----
-	* Install this repo in your packages directory. 
-	* Restart ST2. 
-	* At the root of your as3 project create a file named "as3pb.json" that looks something like this:
-
-		{
-			"input" : "path/to/entrypoint.as",
-			"output" : "path/to/deploy.swf"
-		}
-	* Profit
+* Install this repo in your packages directory. 
+* Restart ST2. 
+* At the root of your as3 project create a file named "as3pb.json" that looks something like this:
+    {
+        "input" : "path/to/entrypoint.as",
+        "output" : "path/to/deploy.swf"
+    }
+* Profit
 
 Customizing
 -----------
