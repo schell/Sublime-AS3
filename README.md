@@ -5,16 +5,18 @@ An actionscript project building package for Sublime Text 2
 
 Usage
 -----
-	* Install this repo in your packages directory. 
-	* Restart ST2. 
-	* Add some settings to your sublime-project file:
+* Install this repo in your packages directory. 
+* Restart ST2. 
+* Add some settings to your sublime-project file:
 
-		"settings" : {
-			"input" : "relative/path/to/entrypoint.as",
-			"output" : "relative/path/to/deploy.swf"
-		}
+```json
+"settings" : {
+    "input" : "relative/path/to/entrypoint.as",
+    "output" : "relative/path/to/deploy.swf"
+}
+```
 
-	* Profit
+* Profit
 
 Customizing
 -----------
