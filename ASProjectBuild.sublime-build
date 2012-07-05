@@ -1,9 +1,11 @@
 {
 	"selector" : "source.actionscript",
 	"cmd": ["python", 
-		"$packages/AS3ProjectBuild/bin/build.py", 
+		"$packages/ASProjectBuild/bin/build.py", 
 		"--project", 
 		"$project_path", 
+		"--project-name",
+		"$project_name",
 		"--input", 
 		"$file", 
 		"--output", 

@@ -1,18 +1,19 @@
 AS3ProjectBuild
 ===============
 
-A project building package for Sublime Text 2
+An actionscript project building package for Sublime Text 2
 
 Usage
 -----
 	* Install this repo in your packages directory. 
 	* Restart ST2. 
-	* At the root of your as3 project create a file named "as3pb.json" that looks something like this:
+	* Add some settings to your sublime-project file:
 
-		{
-			"input" : "path/to/entrypoint.as",
-			"output" : "path/to/deploy.swf"
+		"settings" : {
+			"input" : "relative/path/to/entrypoint.as",
+			"output" : "relative/path/to/deploy.swf"
 		}
+
 	* Profit
 
 Customizing
