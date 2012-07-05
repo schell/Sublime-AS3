@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+class ${TM_FILENAME/\.as//g} ${2:extends $3} ${4:implements $5} {
+	/** * *
+	* @constructor
+	* * **/
+	public function ${TM_FILENAME/\.as//g}($6) {
+		$7
+	}
+	$0
+}
+]]></content>
+<tabTrigger>class</tabTrigger>
+<scope>source.actionscript.3</scope>
+</snippet>

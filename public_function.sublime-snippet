@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/** * *
+* ${1:desc}
+* @return ${7:type} ${8:desc}
+* @author $TM_FULLNAME
+* * **/
+public function ${9:name}($10):$7 {
+	$0
+}
+]]></content>
+<tabTrigger>puf</tabTrigger> 
+<scope>source.actionscript.3</scope>
+</snippet>

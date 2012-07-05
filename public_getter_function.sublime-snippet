@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/** * *
+* ${1:desc}
+* @return ${2:type} ${3:desc}
+* @author $TM_FULLNAME
+* * **/
+public function get ${4:name}():$2 {${5:
+	if (!_$4) {
+		$0
+	\}
+	return _$4;}
+}
+]]></content>
+	<tabTrigger>pug</tabTrigger>
+	<scope>source.actionscript.3</scope>
+</snippet>

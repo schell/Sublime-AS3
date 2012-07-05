@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+* ${1:Description}
+* @var ${2:type}
+*/
+protected var _${3:name}:$2${4:;}
+]]></content>
+<tabTrigger>prov</tabTrigger>
+<scope>source.actionscript.3</scope>
+</snippet>

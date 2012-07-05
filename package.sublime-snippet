@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+package ${1:${TM_FILEPATH/\//./g}} {
+	$0
+}
+]]></content>
+	<scope>source.actionscript.3</scope>
+	<tabTrigger>package</tabTrigger>
+</snippet>
