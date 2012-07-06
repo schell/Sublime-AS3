@@ -3,11 +3,15 @@ AS3
 
 A Sublime Text 2 package for writing pure AS3 projects. The language definition file was taken from Simon Gregory's awesome TextMate bundle. (https://github.com/simongregory/actionscript3-tmbundle)
 
+Installation
+------------
+Just clone this repo in your packages folder: 
+ 
+    git clone git@github.com:schell/Sublime-AS3.git 'AS3'
+    
 Usage
 -----
-* Install this repo in your packages directory. 
-* Restart ST2. 
-* In order to build your project entry-point add some settings to your sublime-project file:
+In order to build your project's entry-point, add some settings to your sublime-project file:
 
 ```json
 "settings" : {
@@ -16,11 +20,11 @@ Usage
 }
 ```
 
-* Profit
+Profit.
 
 Customizing
 -----------
-Currently the only thing you *should* have to customize your build process is change the path to mxmlc. In the AS3.sublime-build file just change "/SDKs/Flex/bin/mxmlc" (the second to last line) to wherever your mxmlc is...
+Currently the only thing you *should* have to customize in the build process is the path to mxmlc. In the AS3.sublime-build file just change "/SDKs/Flex/bin/mxmlc" (the second to last line) to wherever your mxmlc is...
 
 Why?
 ----
