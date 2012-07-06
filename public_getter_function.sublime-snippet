@@ -13,5 +13,5 @@ public function get ${4:name}():$2 {${5:
 }
 ]]></content>
 	<tabTrigger>pug</tabTrigger>
-	<scope>source.actionscript.3</scope>
+	<scope>source.as3</scope>
 </snippet>

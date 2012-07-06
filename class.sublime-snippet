@@ -11,5 +11,5 @@ class ${TM_FILENAME/\.as//g} ${2:extends $3} ${4:implements $5} {
 }
 ]]></content>
 <tabTrigger>class</tabTrigger>
-<scope>source.actionscript.3</scope>
+<scope>source.as3</scope>
 </snippet>

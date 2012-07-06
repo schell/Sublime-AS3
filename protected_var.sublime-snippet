@@ -7,5 +7,5 @@
 protected var _${3:name}:$2${4:;}
 ]]></content>
 <tabTrigger>prov</tabTrigger>
-<scope>source.actionscript.3</scope>
+<scope>source.as3</scope>
 </snippet>

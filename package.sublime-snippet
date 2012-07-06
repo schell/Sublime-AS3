@@ -4,6 +4,6 @@ package ${1:${TM_FILEPATH/\//./g}} {
 	$0
 }
 ]]></content>
-	<scope>source.actionscript.3</scope>
+	<scope>source.as3</scope>
 	<tabTrigger>package</tabTrigger>
 </snippet>
