@@ -5,5 +5,6 @@ package ${1:${TM_FILEPATH/\//./g}} {
 }
 ]]></content>
 	<scope>source.as3</scope>
+	<description>package definition</description>
 	<tabTrigger>package</tabTrigger>
 </snippet>
