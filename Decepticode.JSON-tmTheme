@@ -57,7 +57,7 @@
 		},
 		{	"name" : "Function Name",
 			"scope" : "entity.name",
-			"settings" : { "foreground" : "#FFC66D" }
+			"settings" : { "foreground" : "#ffca6d" }
 		},
 		{	"name" : "Built-in constant",
 			"scope" : "constant",
