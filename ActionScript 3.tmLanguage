@@ -2316,7 +2316,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.actionscript.3</string>
+	<string>source.as3</string>
 	<key>uuid</key>
 	<string>8D062380-64F5-473D-ABB7-0F5E034BB1F8</string>
 </dict>

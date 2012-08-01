@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+* ${1:Description}
+* @var ${2:type}
+*/
+public static const ${3:NAME}:$2${4:;}
+]]></content>
+<tabTrigger>pusc</tabTrigger>
+<scope>source.as3</scope>
+</snippet>

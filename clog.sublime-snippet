@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/* console log */
+import flash.external.ExternalInterface;
+if(ExternalInterface.available) {
+    ExternalInterface.call('console.log', '${TM_FILENAME/\.as$//g}:$TM_LINE_NUMBER',$1);
+}
+]]></content>
+	<scope>source.as3</scope>
+	<description>log to js console</description>
+	<tabTrigger>clog</tabTrigger>
+</snippet>

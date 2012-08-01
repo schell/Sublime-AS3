@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/** * *
+* ${1:desc}
+* @param ${2:varname} ${3:type}
+* @return void
+* @author $TM_FULLNAME
+* * **/
+public function set ${4:name}($2:$3):void {
+	_$4 = $2;
+}
+]]></content>
+	<tabTrigger>pus</tabTrigger>
+	<scope>source.as3</scope>
+</snippet>
